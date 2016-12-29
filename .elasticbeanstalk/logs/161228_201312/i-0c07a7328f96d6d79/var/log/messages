@@ -1,0 +1,499 @@
+Dec 29 02:39:27 ip-172-31-42-83 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Dec 29 02:39:27 ip-172-31-42-83 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1200" x-info="http://www.rsyslog.com"] start
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Initializing cgroup subsys cpu
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Linux version 4.4.35-33.55.amzn1.x86_64 (mockbuild@gobi-build-60006) (gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) ) #1 SMP Tue Dec 6 20:30:04 UTC 2016
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Command line: root=LABEL=/ console=hvc0 selinux=0 LANG=en_US.UTF-8 KEYTABLE=us
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] x86/fpu: Legacy x87 FPU detected.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] x86/fpu: Using 'lazy' FPU context switches.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] ACPI in unprivileged domain disabled
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Released 0 page(s)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Xen: [mem 0x0000000000000000-0x000000000009ffff] usable
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Xen: [mem 0x00000000000a0000-0x00000000000fffff] reserved
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Xen: [mem 0x0000000000100000-0x0000000026efffff] usable
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] NX (Execute Disable) protection: active
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] DMI not present or invalid.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Hypervisor detected: Xen
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] e820: last_pfn = 0x26f00 max_arch_pfn = 0x400000000
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] MTRR: Disabled
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WC  WP  UC  UC  
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] RAMDISK: [mem 0x01dd8000-0x05611fff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] NUMA turned off
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x0000000026efffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x266de000-0x266fffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Zone ranges:
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x0000000026efffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000]   Normal   empty
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Movable zone start for each node
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Early memory node ranges
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x0000000026efffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x0000000026efffff]
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] p2m virtual area at ffffc90000000000, size is 200000
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Remapped 0 page(s)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] e820: [mem 0x26f00000-0xffffffff] available for PCI devices
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Booting paravirtualized kernel on Xen
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Xen version: 3.4.3.amazon (preserve-AD)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] setup_percpu: NR_CPUS:128 nr_cpumask_bits:128 nr_cpu_ids:1 nr_node_ids:1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] PERCPU: Embedded 32 pages/cpu @ffff880026200000 s91416 r8192 d31464 u2097152
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 156878
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Policy zone: DMA32
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Kernel command line: root=LABEL=/ console=hvc0 selinux=0 LANG=en_US.UTF-8 KEYTABLE=us
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Memory: 544360K/637564K available (5007K kernel code, 985K rwdata, 2440K rodata, 1188K init, 1580K bss, 93204K reserved, 0K cma-reserved)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Hierarchical RCU implementation.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 64.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=128 to nr_cpu_ids=1.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Using NULL legacy PIC
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] NR_IRQS:8448 nr_irqs:32 0
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] xen:events: Using 2-level ABI
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] Console: colour dummy device 80x25
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] console [tty0] enabled
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] console [hvc0] enabled
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] installing Xen timer for CPU 0
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [    0.000000] tsc: Detected 1795.672 MHz processor
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303033] Calibrating delay loop (skipped), value calculated using timer frequency.. 3591.34 BogoMIPS (lpj=7182688)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303050] pid_max: default: 32768 minimum: 301
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303086] Security Framework initialized
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303349] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303683] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303825] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.303840] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304173] Initializing cgroup subsys io
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304187] Initializing cgroup subsys memory
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304204] Initializing cgroup subsys devices
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304214] Initializing cgroup subsys freezer
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304222] Initializing cgroup subsys net_cls
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304231] Initializing cgroup subsys perf_event
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304239] Initializing cgroup subsys net_prio
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304249] Initializing cgroup subsys hugetlb
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304257] Initializing cgroup subsys pids
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304342] CPU: Physical Processor ID: 1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304350] CPU: Processor Core ID: 2
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304362] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239055.304368] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.090903] Freeing SMP alternatives memory: 20K (ffffffff81c21000 - ffffffff81c26000)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.093994] ftrace: allocating 20574 entries in 81 pages
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.108032] cpu 0 spinlock event irq 1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.108047] Could not initialize VPMU for cpu 0, error -38
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.108112] Performance Events: unsupported p6 CPU model 45 no PMU driver, software events only.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.108370] x86: Booted up 1 node, 1 CPUs
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.108491] devtmpfs: initialized
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.111467] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.111746] NET: Registered protocol family 16
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.111769] xen:grant_table: Grant tables using version 1 layout
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.111785] Grant table initialized
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.113131] PCI: setting up Xen PCI frontend stub
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.115966] ACPI: Interpreter disabled.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.115992] xen:balloon: Initialising balloon driver
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117480] vgaarb: loaded
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117643] dmi: Firmware registration failed.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117662] PCI: System does not support PCI
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117669] PCI: System does not support PCI
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117812] NetLabel: Initializing
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117821] NetLabel:  domain hash size = 128
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117827] NetLabel:  protocols = UNLABELED CIPSOv4
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117850] NetLabel:  unlabeled traffic allowed by default
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117882] amd_nb: Cannot enumerate AMD northbridges
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.117944] clocksource: Switched to clocksource xen
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.124269] pnp: PnP ACPI: disabled
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.127950] NET: Registered protocol family 2
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128137] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128191] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128224] TCP: Hash tables configured (established 8192 bind 8192)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128271] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128286] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128347] NET: Registered protocol family 1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.128472] Unpacking initramfs...
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.197518] Freeing initrd memory: 57576K (ffff880001dd8000 - ffff880005612000)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.197627] RAPL PMU detected, API unit is 2^-32 Joules, 3 fixed counters 163840 ms ovfl timer
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.197641] hw unit of domain pp0-core 2^-16 Joules
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.197648] hw unit of domain package 2^-16 Joules
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.197654] hw unit of domain dram 2^-16 Joules
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.198251] futex hash table entries: 256 (order: 2, 16384 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.198288] audit: initializing netlink subsys (disabled)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.198321] audit: type=2000 audit(1482979150.662:1): initialized
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.198631] Initialise system trusted keyring
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.202300] VFS: Disk quotas dquot_6.6.0
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.202352] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.202396] hugetlbfs: disabling because there are no supported hugepage sizes
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.203306] Key type asymmetric registered
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.203318] Asymmetric key parser 'x509' registered
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.203376] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.203462] io scheduler noop registered (default)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.203484] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.204026] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.204580] xen_netfront: Initialising Xen virtual ethernet driver
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239056.205511] i8042: PNP: No PS/2 controller found. Probing ports directly.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.210710] i8042: No controller found
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.210821] hidraw: raw HID events driver (C) Jiri Kosina
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.211172] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x19e231069eb, max_idle_ns: 440795250837 ns
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.211801] NET: Registered protocol family 17
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.211828] mce: Unable to init device /dev/mcelog (rc: -5)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.212208] registered taskstats version 1
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.212245] Loading compiled-in X.509 certificates
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.213482] Loaded X.509 cert 'Build time autogenerated kernel key: 937e5ca248d402904964aa335148e77741a7cf6d'
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.216364] zswap: default zpool zbud not available
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.216375] zswap: pool creation failed
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.247853] blkfront: xvda1: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: disabled;
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.314769] Freeing unused kernel memory: 1188K (ffffffff81af8000 - ffffffff81c21000)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.314784] Write protecting the kernel read-only data: 10240k
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.318767] Freeing unused kernel memory: 1124K (ffff8800014e7000 - ffff880001600000)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.319851] Freeing unused kernel memory: 1656K (ffff880001862000 - ffff880001a00000)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.370271] dm_mod: module verification failed: signature and/or required key missing - tainting kernel
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.371523] device-mapper: uevent: version 1.0.3
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.371663] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.437033] SSE version of gcm_enc/dec engaged.
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.501873] alg: No test for fips(ansi_cprng) (fips_ansi_cprng)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239057.700556] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239058.042879] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239060.104576] random: init: uninitialized urandom read (12 bytes read, 116 bits of entropy available)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239060.583590] random: nonblocking pool is initialized
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239066.767130] EXT4-fs (xvda1): re-mounted. Opts: (null)
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239069.793726] NET: Registered protocol family 10
+Dec 29 02:39:27 ip-172-31-42-83 kernel: [110239070.440417] netlink: 12 bytes leftover after parsing attributes in process `ip'.
+Dec 29 02:39:28 ip-172-31-42-83 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Dec 29 02:39:28 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 1980ms.
+Dec 29 02:39:28 ip-172-31-42-83 irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Dec 29 02:39:28 ip-172-31-42-83 rpc.statd[1265]: Version 1.3.0 starting
+Dec 29 02:39:28 ip-172-31-42-83 sm-notify[1266]: Version 1.3.0 starting
+Dec 29 02:39:29 ip-172-31-42-83 init: supervisord main process (912) terminated with status 2
+Dec 29 02:39:29 ip-172-31-42-83 udevadm[1333]: --type=failed is deprecated and will be removed from a future udev release.
+Dec 29 02:39:29 ip-172-31-42-83 ec2net: [ec2ifscan] Scanning for unconfigured interfaces
+Dec 29 02:39:30 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 3850ms.
+Dec 29 02:39:34 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 7720ms.
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1433]: ntpd 4.2.6p5@1.2349-o Thu Jul 28 22:19:51 UTC 2016 (1)
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1434]: proto: precision = 0.873 usec
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1434]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1434]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1434]: Listen normally on 1 lo 127.0.0.1 UDP 123
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1434]: Listen normally on 2 eth0 172.31.42.83 UDP 123
+Dec 29 02:39:34 ip-172-31-42-83 ntpd[1434]: Listening on routing socket on fd #19 for interface updates
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:35Z] Started EB User Data
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]: + SLEEP_TIME=10
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]: + SLEEP_TIME_MAX=3600
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]: + true
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]: + curl https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/UserDataScript.sh
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Dec 29 02:39:35 ip-172-31-42-83 [eb-cfn-init]:                                  Dload  Upload   Total   Spent    Left  Speed
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: #015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015100 12245  100 12245    0     0  36100      0 --:--:-- --:--:-- --:--:-- 36120
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: + RESULT=0
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: + [[ 0 -ne 0 ]]
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: + /bin/bash /tmp/ebbootstrap.sh https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/aws-elasticbeanstalk-tools-1.19-1.noarch.rpm 'https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/basehooks.tar.gz' 'https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-2.6.gem https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-healthd-1.1.gem https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/executor-1.1.gem' 'https://cloudformation-waitcondition-us-west-2.s3-us-west-2.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-west-2%3A230974412218%3Astack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: 6f-11e6-94f7-503f20f2ade6/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIY5RM4DUXMU25KNA&Expires=1483065459&Signature=g%2F6M4%2FE8ZE8yaKMuGBQi62tWLA0%3D' arn:aws:cloudformation:us-west-2:230974412218:stack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd6f-11e6-94f7-503f20f2ade6 us-west-2 054252057bce 46fd0b89-2e0e-458f-b8a6-25051f650e91 '' nginx ''
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:36.859Z] Started EB Bootstrapping Script.
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:36.869Z] Received parameters:
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  RPMS = https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/aws-elasticbeanstalk-tools-1.19-1.noarch.rpm
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  TARBALLS = https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/basehooks.tar.gz
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  EB_GEMS = https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-2.6.gem https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-healthd-1.1.gem https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/executor-1.1.gem
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  SIGNAL_URL = https://cloudformation-waitcondition-us-west-2.s3-us-west-2.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-west-2%3A230974412218%3Astack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd6f-11e6-94f7-503f20f2ade6/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIY5RM4DUXMU25KNA&Expires=1483065459&Signature=g%2F6M4%2FE8ZE8yaKMuGBQi62tWLA0%3D
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  STACK_ID = arn:aws:cloudformation:us-west-2:230974412218:stack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd6f-11e6-94f7-503f20f2ade6
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  REGION = us-west-2
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  GUID = 054252057bce
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  HEALTHD_GROUP_ID = 46fd0b89-2e0e-458f-b8a6-25051f650e91
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  HEALTHD_ENDPOINT = 
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  PROXY_SERVER = nginx
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]:  HEALTHD_PROXY_LOG_LOCATION =
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:36.877Z] Synchronizing network time in background.
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:36.884Z] yum repo has already been locked to 054252057bce.
+Dec 29 02:39:36 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:36.890Z] yum update has already been done.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.999Z] Completed creating AWS EB users and groups.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.006Z] Started executing install_rpms https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/aws-elasticbeanstalk-tools-1.19-1.noarch.rpm.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.012Z] Installing RPM: https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/aws-elasticbeanstalk-tools-1.19-1.noarch.rpm.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.859Z] aws-elasticbeanstalk-tools-1.19-1.noarch has already been installed. Skip installing.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.865Z] Command Returned: 
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.870Z] Completed executing install_rpms.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.876Z] Started executing install_tarballs https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/basehooks.tar.gz.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.882Z] Installing tarball: https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.888Z] awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz has already been installed. Skip installing.
+Dec 29 02:39:37 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:37.893Z] Installing tarball: https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/basehooks.tar.gz.
+Dec 29 02:39:38 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:38.107Z] Command Returned: 
+Dec 29 02:39:38 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:39:38 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:37 URL:https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/basehooks.tar.gz [5760/5760] -> "/tmp/basehooks.tar.gz" [1]
+Dec 29 02:39:38 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:38.113Z] Completed executing install_tarballs.
+Dec 29 02:39:38 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:38.119Z] Started executing install_eb_gems https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-2.6.gem https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-healthd-1.1.gem https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/executor-1.1.gem.
+Dec 29 02:39:38 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:38.239Z] Installing EB Gem: https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-2.6.gem.
+Dec 29 02:39:42 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 15430ms.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.178Z] beanstalk-core-2.6 has already been installed. Skip installing.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.183Z] Installing EB Gem: https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/beanstalk-core-healthd-1.1.gem.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.505Z] beanstalk-core-healthd-1.1 has already been installed. Skip installing.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.510Z] Installing EB Gem: https://s3-us-west-2.amazonaws.com/elasticbeanstalk-env-resources-us-west-2/stalks/eb_golang_1.0.37.3/lib/executor-1.1.gem.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.828Z] executor-1.1 has already been installed. Skip installing.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.836Z] Command Returned: 
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.842Z] Completed executing install_eb_gems.
+Dec 29 02:39:43 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:43.848Z] Starting healthd
+Dec 29 02:39:44 ip-172-31-42-83 [eb-cfn-init]: initctl: Unknown instance: 
+Dec 29 02:39:44 ip-172-31-42-83 [eb-cfn-init]: healthd start/running, process 1601
+Dec 29 02:39:44 ip-172-31-42-83 su: (to healthd) root on none
+Dec 29 02:39:45 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:45.400Z] First init of instance.
+Dec 29 02:39:45 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:45.406Z] Started executing cfn_init _OnInstanceBoot first_init.
+Dec 29 02:39:45 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:45.412Z] Running cfn-init ConfigSet: _OnInstanceBoot.
+Dec 29 02:39:46 ip-172-31-42-83 [eb-cfn-init]: 29 Dec 02:39:46 ntpdate[1516]: adjust time server 171.66.97.126 offset 0.001082 sec
+Dec 29 02:39:47 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:47.405Z] Command Returned: 
+Dec 29 02:39:47 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:47.411Z] Completed executing cfn_init.
+Dec 29 02:39:47 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:47.579Z] Check whether controlled by launch workflow...
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.376Z] Worflow running.
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.382Z] Workflow controlled instance. Running container provisioning...
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.388Z] Started executing start_cfn_hup.
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.394Z] Starting cfn-hup.
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.408Z] Command Returned: cfn-hup start/running, process 1680
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.423Z] Completed executing start_cfn_hup.
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.438Z] Started executing run_eb_command { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Dec 29 02:39:48 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:48.450Z] Running EB Command: { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Dec 29 02:39:57 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 30810ms.
+Dec 29 02:40:02 ip-172-31-42-83 yum[1722]: Installed: aws-cli-plugin-cloudwatch-logs-1.3.3-1.15.amzn1.noarch
+Dec 29 02:40:07 ip-172-31-42-83 yum[1722]: Installed: awslogs-1.1.2-1.10.amzn1.noarch
+Dec 29 02:40:07 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.770Z] Command Returned: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Dec 29 02:40:07 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.776Z] Completed executing run_eb_command.
+Dec 29 02:40:07 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.782Z] Successfully bootstrapped instance.
+Dec 29 02:40:07 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.966Z] Sending signal 0 to CFN wait condition https://cloudformation-waitcondition-us-west-2.s3-us-west-2.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-west-2%3A230974412218%3Astack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd6f-11e6-94f7-503f20f2ade6/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAIY5RM4DUXMU25KNA&Expires=1483065459&Signature=g%2F6M4%2FE8ZE8yaKMuGBQi62tWLA0%3D
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: CloudFormation signaled successfully with SUCCESS.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.377Z] Tailing /var/log/eb-commandprocessor.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* eb-commandprocessor taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.068Z] DEBUG [1690]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.073Z] DEBUG [1690]  : Checking if the command processor should execute...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] DEBUG [1690]  : Checking whether the command is applicable to instance (i-0c07a7328f96d6d79)..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] INFO  [1690]  : Command is applicable to this instance (i-0c07a7328f96d6d79)..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] DEBUG [1690]  : Checking if the received command stage is valid..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] INFO  [1690]  : No stage_num in command. Valid stage..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] INFO  [1690]  : Received command CMD-PreInit: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: {
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   "api_version" : "1.0",
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   "request_id": "0",
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   "command_name": "CMD-PreInit"
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: }
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] INFO  [1690]  : Command processor should execute command.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] DEBUG [1690]  : Storing current stage..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] DEBUG [1690]  : Stage_num does not exist. Not saving null stage. Returning..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] DEBUG [1690]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.076Z] DEBUG [1690]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.077Z] DEBUG [1690]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.078Z] INFO  [1690]  : Found enabled addons: ["logpublish", "logstreaming"].
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.085Z] INFO  [1690]  : Updating Command definition of addon logpublish.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.085Z] INFO  [1690]  : Updating Command definition of addon logstreaming.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.085Z] DEBUG [1690]  : Refreshing metadata...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.086Z] DEBUG [1690]  : Using cached environment metadata.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.086Z] DEBUG [1690]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.087Z] DEBUG [1690]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.088Z] INFO  [1690]  : Found enabled addons: ["logpublish", "logstreaming"].
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.093Z] INFO  [1690]  : Updating Command definition of addon logpublish.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.094Z] INFO  [1690]  : Updating Command definition of addon logstreaming.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.094Z] DEBUG [1690]  : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.096Z] DEBUG [1690]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:49.891Z] INFO  [1690]  : Finding latest manifest from bucket 'elasticbeanstalk-us-west-2-230974412218' with prefix 'resources/environments/e-w6dxgi7ekq/_runtime/versions/manifest_'.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.791Z] INFO  [1690]  : Found manifest with key 'resources/environments/e-w6dxgi7ekq/_runtime/versions/manifest_1482979053700'.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.803Z] INFO  [1690]  : Updated manifest cache: deployment ID 1 and serial 1.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.803Z] DEBUG [1690]  : Loaded definition of Command CMD-PreInit.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.804Z] INFO  [1690]  : Executing Initialization
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] INFO  [1690]  : Executing command: CMD-PreInit...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] INFO  [1690]  : Executing command CMD-PreInit activities...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] DEBUG [1690]  : Setting environment variables..
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] INFO  [1690]  : Running AddonsBefore for command CMD-PreInit...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] DEBUG [1690]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] INFO  [1690]  : Running stage 0 of command CMD-PreInit...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] DEBUG [1690]  : Loaded 3 actions for stage 0.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.805Z] INFO  [1690]  : Running 1 of 3 actions: InfraWriteConfig...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:50.809Z] INFO  [1690]  : Running 2 of 3 actions: DownloadSourceBundle...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:51.382Z] INFO  [1690]  : Running 3 of 3 actions: PreInitHook...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:39:51.923Z] INFO  [1690]  : Running AddonsAfter for command CMD-PreInit...
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.736Z] INFO  [1690]  : Command CMD-PreInit succeeded!
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.737Z] INFO  [1690]  : Command processor returning results: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* End of taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.389Z] Tailing /var/log/eb-activity.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* eb-activity taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Dependencies Resolved
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   ================================================================================
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:    Package                          Arch     Version            Repository   Size
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   ================================================================================
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Installing:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:    awslogs                          noarch   1.1.2-1.10.amzn1   amzn-main   8.8 k
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Installing for dependencies:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:    aws-cli-plugin-cloudwatch-logs   noarch   1.3.3-1.15.amzn1   amzn-main    69 k
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Transaction Summary
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   ================================================================================
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Install  1 Package (+1 Dependent package)
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Total download size: 78 k
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Installed size: 240 k
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Downloading packages:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   --------------------------------------------------------------------------------
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Total                                              2.8 MB/s |  78 kB  00:00     
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Running transaction check
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Running transaction test
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Transaction test succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Running transaction
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     Installing : aws-cli-plugin-cloudwatch-logs-1.3.3-1.15.amzn1.noarch       1/2 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     Installing : awslogs-1.1.2-1.10.amzn1.noarch                              2/2 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     Verifying  : awslogs-1.1.2-1.10.amzn1.noarch                              1/2 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     Verifying  : aws-cli-plugin-cloudwatch-logs-1.3.3-1.15.amzn1.noarch       2/2 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Installed:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     awslogs.noarch 0:1.1.2-1.10.amzn1                                             
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Dependency Installed:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     aws-cli-plugin-cloudwatch-logs.noarch 0:1.3.3-1.15.amzn1                      
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Complete!
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   + cat
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   + /opt/elasticbeanstalk/bin/log-conf -n awslogs -l/var/log/awslogs.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   ++ sed 's/.$//'
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   ++ curl 169.254.169.254/latest/meta-data/placement/availability-zone
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:                                    Dload  Upload   Total   Spent    Left  Speed
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   #015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015100    10  100    10    0     0   2116      0 --:--:-- --:--:-- --:--:--  2500
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   + region=us-west-2
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   + sed -i -e 's/region = us-east-1/region = us-west-2/g' /etc/awslogs/awscli.conf
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: + exit 0
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.736Z] INFO  [1690]  - [Initialization/AddonsAfter/InstallCWLAgent] : Completed activity. Result:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logstreaming/hooks/install.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.736Z] INFO  [1690]  - [Initialization/AddonsAfter] : Completed activity.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:07.736Z] INFO  [1690]  - [Initialization] : Completed activity. Result:
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]:   Initialization - Command CMD-PreInit succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* End of taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.557Z] Tailing /var/log/eb-tools.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* eb-tools taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ***eb-tools is not available yet.***
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* End of taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.563Z] Tailing /var/log/eb-version-deployment.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* eb-version-deployment taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ***eb-version-deployment is not available yet.***
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* End of taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.569Z] Tailing /var/log/cfn-init.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* cfn-init taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,591 [INFO] -----------------------Starting build-----------------------
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,686 [INFO] Running configSets: _OnInstanceBoot
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,687 [INFO] Running configSet _OnInstanceBoot
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,691 [INFO] Running config AWSEBBaseConfig
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,711 [INFO] Command clearbackupfiles succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,722 [INFO] Running config AWSEBMessageOfTheDay
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,741 [INFO] Command 01clearoriginal succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,758 [INFO] Command 02createbanner succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,858 [INFO] Command 03updatebanner succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,978 [INFO] Running config AWSEBULimitConfig
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:46,995 [INFO] Command 00removebackup succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,012 [INFO] Running config Infra-InstallContainerHooksPkg
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,040 [INFO] Command 00mkdir succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,267 [INFO] Command 01download_container_hooks succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,292 [INFO] Command 02install_container_hooks succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,306 [INFO] Command 03cleanup succeeded
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,317 [INFO] Running config Infra-WriteLeaderTestScript
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,325 [INFO] Running config Infra-WriteTailLogsConf
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,334 [INFO] Running config Infra-WriteSystemTailLogsConf
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,344 [INFO] Running config Infra-WriteBundleLogsConf
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,353 [INFO] Running config Infra-WritePublishLogsConf
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,367 [INFO] Running config Infra-WritePublishLogsCron
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,371 [INFO] ConfigSets completed
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:47,376 [INFO] -----------------------Build complete-----------------------
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* End of taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.577Z] Tailing /var/log/cfn-hup.log
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* cfn-hup taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,134 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-west-2.amazonaws.com
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,136 [DEBUG] SQS client initialized with endpoint https://us-west-2.queue.amazonaws.com
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,136 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.us-west-2.amazonaws.com
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,136 [DEBUG] Enabled single threading mode.
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,136 [DEBUG] Creating /var/lib/cfn-hup/data
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,143 [DEBUG] Registering listener i-0c07a7328f96d6d79 for stack arn:aws:cloudformation:us-west-2:230974412218:stack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd6f-11e6-94f7-503f20f2ade6
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,758 [INFO] Refreshing listener credentials
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,758 [DEBUG] Get listener credentials for listener i-0c07a7328f96d6d79 in stack arn:aws:cloudformation:us-west-2:230974412218:stack/awseb-e-w6dxgi7ekq-stack/c155abe0-cd6f-11e6-94f7-503f20f2ade6
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,925 [INFO] Scheduling next credential refresh in 7200 seconds
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 2016-12-29 02:39:49,926 [DEBUG] Receiving messages for queue https://us-west-2.queue.amazonaws.com/520209054035/12872c18e88af9a2ec8fb5d7a6abe00611f7154eea04ab0881a5ee239a93caf5
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: ******************* End of taillog *******************
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: 
+Dec 29 02:40:08 ip-172-31-42-83 [eb-cfn-init]: [2016-12-29T02:40:08.586Z] Completed EB Bootstrapping Script.
+Dec 29 02:40:28 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 60620ms.
+Dec 29 02:40:49 ip-172-31-42-83 init: healthd main process (1601) terminated with status 1
+Dec 29 02:40:49 ip-172-31-42-83 su: (to healthd) root on none
+Dec 29 02:41:29 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 117520ms.
+Dec 29 02:43:26 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 111920ms.
+Dec 29 02:45:18 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 120600ms.
+Dec 29 02:47:19 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 128700ms.
+Dec 29 02:49:28 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 111980ms.
+Dec 29 02:51:20 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 120800ms.
+Dec 29 02:53:21 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 119620ms.
+Dec 29 02:55:21 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 123120ms.
+Dec 29 02:57:24 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 111170ms.
+Dec 29 02:59:15 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 128380ms.
+Dec 29 03:01:23 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 108440ms.
+Dec 29 03:03:12 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 117680ms.
+Dec 29 03:05:10 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 108350ms.
+Dec 29 03:06:58 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 110010ms.
+Dec 29 03:08:12 ip-172-31-42-83 dhclient[1113]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x6cfcbd17)
+Dec 29 03:08:12 ip-172-31-42-83 dhclient[1113]: DHCPACK from 172.31.32.1 (xid=0x6cfcbd17)
+Dec 29 03:08:12 ip-172-31-42-83 dhclient[1113]: bound to 172.31.42.83 -- renewal in 1441 seconds.
+Dec 29 03:08:12 ip-172-31-42-83 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/06:72:ab:36:d2:1b/local-ipv4s
+Dec 29 03:08:12 ip-172-31-42-83 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Dec 29 03:08:48 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 119700ms.
+Dec 29 03:10:48 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 108450ms.
+Dec 29 03:12:37 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 115650ms.
+Dec 29 03:14:32 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 126740ms.
+Dec 29 03:16:39 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 120300ms.
+Dec 29 03:18:40 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 117550ms.
+Dec 29 03:20:37 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 118620ms.
+Dec 29 03:22:36 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 125040ms.
+Dec 29 03:24:41 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 123320ms.
+Dec 29 03:26:44 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 122450ms.
+Dec 29 03:28:47 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 122990ms.
+Dec 29 03:30:50 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 109270ms.
+Dec 29 03:32:13 ip-172-31-42-83 dhclient[1113]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x6cfcbd17)
+Dec 29 03:32:13 ip-172-31-42-83 dhclient[1113]: DHCPACK from 172.31.32.1 (xid=0x6cfcbd17)
+Dec 29 03:32:13 ip-172-31-42-83 dhclient[1113]: bound to 172.31.42.83 -- renewal in 1502 seconds.
+Dec 29 03:32:13 ip-172-31-42-83 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/06:72:ab:36:d2:1b/local-ipv4s
+Dec 29 03:32:13 ip-172-31-42-83 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Dec 29 03:32:39 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 130910ms.
+Dec 29 03:34:50 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 115510ms.
+Dec 29 03:36:46 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 109770ms.
+Dec 29 03:38:36 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 127380ms.
+Dec 29 03:40:43 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 129490ms.
+Dec 29 03:42:53 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 126550ms.
+Dec 29 03:45:00 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 112120ms.
+Dec 29 03:46:52 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 113320ms.
+Dec 29 03:48:45 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 120620ms.
+Dec 29 03:50:46 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 124560ms.
+Dec 29 03:52:51 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 125150ms.
+Dec 29 03:54:56 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 109420ms.
+Dec 29 03:56:45 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 109650ms.
+Dec 29 03:57:15 ip-172-31-42-83 dhclient[1113]: DHCPREQUEST on eth0 to 172.31.32.1 port 67 (xid=0x6cfcbd17)
+Dec 29 03:57:15 ip-172-31-42-83 dhclient[1113]: DHCPACK from 172.31.32.1 (xid=0x6cfcbd17)
+Dec 29 03:57:15 ip-172-31-42-83 dhclient[1113]: bound to 172.31.42.83 -- renewal in 1792 seconds.
+Dec 29 03:57:15 ip-172-31-42-83 ec2net: [get_meta] Trying to get http://169.254.169.254/latest/meta-data/network/interfaces/macs/06:72:ab:36:d2:1b/local-ipv4s
+Dec 29 03:57:15 ip-172-31-42-83 ec2net: [rewrite_aliases] Rewriting aliases of eth0
+Dec 29 03:58:35 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 118830ms.
+Dec 29 04:00:34 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 118580ms.
+Dec 29 04:02:33 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 123930ms.
+Dec 29 04:04:37 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 110980ms.
+Dec 29 04:06:28 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 124620ms.
+Dec 29 04:08:32 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 124820ms.
+Dec 29 04:10:37 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 114020ms.
+Dec 29 04:12:31 ip-172-31-42-83 dhclient[1145]: XMT: Solicit on eth0, interval 119760ms.

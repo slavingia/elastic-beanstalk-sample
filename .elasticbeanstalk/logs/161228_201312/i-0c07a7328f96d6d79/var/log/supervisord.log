@@ -1,0 +1,24 @@
+2016-12-29 02:40:47,091 CRIT Supervisor running as root (no user in config file)
+2016-12-29 02:40:47,092 WARN Included extra file "/etc/supervisor/conf.d/application.conf" during parsing
+2016-12-29 02:40:47,092 WARN Included extra file "/etc/supervisor/conf.d/containerlistener.conf" during parsing
+2016-12-29 02:40:47,201 INFO RPC interface 'supervisor' initialized
+2016-12-29 02:40:47,201 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-12-29 02:40:47,202 INFO supervisord started with pid 1979
+2016-12-29 02:40:48,210 INFO spawned: 'supervisor_listener' with pid 2049
+2016-12-29 02:40:48,226 INFO spawned: 'application-web-1' with pid 2050
+2016-12-29 02:40:49,407 INFO success: supervisor_listener entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-12-29 02:40:49,407 INFO success: application-web-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-12-29 03:35:15,666 INFO stopped: application-web-1 (exit status 2)
+2016-12-29 03:35:15,859 INFO waiting for supervisor_listener to stop
+2016-12-29 03:35:15,861 INFO stopped: supervisor_listener (terminated by SIGQUIT)
+2016-12-29 03:35:16,894 WARN received SIGTERM indicating exit request
+2016-12-29 03:35:17,868 CRIT Supervisor running as root (no user in config file)
+2016-12-29 03:35:17,868 WARN Included extra file "/etc/supervisor/conf.d/application.conf" during parsing
+2016-12-29 03:35:17,872 WARN Included extra file "/etc/supervisor/conf.d/containerlistener.conf" during parsing
+2016-12-29 03:35:17,968 INFO RPC interface 'supervisor' initialized
+2016-12-29 03:35:17,968 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-12-29 03:35:17,969 INFO supervisord started with pid 3933
+2016-12-29 03:35:18,978 INFO spawned: 'supervisor_listener' with pid 4011
+2016-12-29 03:35:18,994 INFO spawned: 'application-web-1' with pid 4012
+2016-12-29 03:35:20,176 INFO success: supervisor_listener entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-12-29 03:35:20,177 INFO success: application-web-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
