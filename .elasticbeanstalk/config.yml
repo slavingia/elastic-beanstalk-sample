@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: Default-Environment
+  master:
+    environment: Default-Environment
 environment-defaults:
   Default-Environment:
     branch: null
@@ -11,4 +13,4 @@ global:
   default_platform: 64bit Amazon Linux 2016.09 v2.3.0 running Go 1.5
   default_region: us-west-2
   profile: eb-cli
-  sc: null
+  sc: git
